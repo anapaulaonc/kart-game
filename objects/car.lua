@@ -14,6 +14,8 @@ function Car:update(dt)
 end
 
 function Car:draw()
+  love.graphics.draw()
+
 end
 
 return Car
