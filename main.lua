@@ -6,7 +6,7 @@ function love.load()
   _world = love.physics.newWorld(0, 0, true)
 
   local Car = require "objects.car"
-  _car = Car(_world, 100, 100)
+  _car = Car(_world, 500, 300)
 
   sprites = {}
   sprites.background = love.graphics.newImage('sprites/background.png')

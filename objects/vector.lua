@@ -34,8 +34,8 @@ function Vector:rotate(angle)
   return Vector(c * self.x - s * self.y, s * self.x + c * self.y)
 end
 
-function Vector:splat()
-  return self.x, self.y
+function Vector:dot(other)
+  return self.x * other.x + self.y * other.y
 end
 
 
